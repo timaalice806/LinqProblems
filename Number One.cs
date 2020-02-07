@@ -8,5 +8,14 @@ namespace Linq_Problems
 {
     class Number_One
     {
+        //MEMBER VARIABLES//
+        public List<string> words = new List<string>() {"the","bike","this","it","tenth","mathematics"};
+
+        //MEMBER METHODS//
+        static void GetTH()
+        {
+
+        } 
+
     }
 }
