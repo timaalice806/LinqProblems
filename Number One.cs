@@ -12,10 +12,15 @@ namespace Linq_Problems
         public List<string> words = new List<string>() {"the","bike","this","it","tenth","mathematics"};
 
         //MEMBER METHODS//
-        static void GetTH()
+        public static void GetTH()
         {
-
+            List<string> words = new List<string>() {"the","bike","this","it","tenth","mathematics"};
+            var THwords = words.FindAll(w => w.Contains("th"));
+            foreach (var word in THwords)
+            {
+                Console.WriteLine(word);
+            }
+            Console.ReadLine();
         } 
-
     }
 }
