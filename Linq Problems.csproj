@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Number Four.cs" />
     <Compile Include="Number One.cs" />
+    <Compile Include="Number Three.cs" />
     <Compile Include="Number Two.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
